@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyApp6</string>
+    <string name="action_settings">Settings</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="show_message">show a message</string>
+    <string name="button_send">Send</string>
+    <string name="action_search">action search</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>

@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.lizq.myapp6.MainActivity">
+        <!-- 搜索, 应该展示为动作按钮 -->
+    <item android:id="@+id/action_search"
+            android:icon="@drawable/ic_action_search"
+            android:title="@string/action_search"
+            yourapp:showAsAction="ifRoom"  />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+</menu>
